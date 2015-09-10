@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37366" started-at="2015-08-26T07:54:46Z" finished-at="2015-08-26T07:55:23Z">
+    <groups>
+    </groups>
+    <test name="Run on IE" duration-ms="14145" started-at="2015-08-26T07:54:46Z" finished-at="2015-08-26T07:55:00Z">
+      <class name="firstSample.ThreadLocalDemo">
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@1c2c22f3]" name="testMethod1" duration-ms="6625" started-at="2015-08-26T09:54:46Z" finished-at="2015-08-26T09:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@1c2c22f3]" name="testMethod2" duration-ms="12952" started-at="2015-08-26T09:54:46Z" finished-at="2015-08-26T09:54:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- firstSample.ThreadLocalDemo -->
+    </test> <!-- Run on IE -->
+    <test name="Run on Firefox" duration-ms="14815" started-at="2015-08-26T07:55:00Z" finished-at="2015-08-26T07:55:15Z">
+      <class name="firstSample.ThreadLocalDemo">
+        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@f5f2bb7]" name="testMethod2" duration-ms="8220" started-at="2015-08-26T09:55:00Z" finished-at="2015-08-26T09:55:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@f5f2bb7]" name="testMethod1" duration-ms="14377" started-at="2015-08-26T09:55:00Z" finished-at="2015-08-26T09:55:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- firstSample.ThreadLocalDemo -->
+    </test> <!-- Run on Firefox -->
+    <test name="Run on Chrome" duration-ms="8362" started-at="2015-08-26T07:55:15Z" finished-at="2015-08-26T07:55:23Z">
+      <class name="firstSample.ThreadLocalDemo">
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@326de728]" name="testMethod1" duration-ms="6977" started-at="2015-08-26T09:55:15Z" finished-at="2015-08-26T09:55:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@326de728]" name="testMethod2" duration-ms="5643" started-at="2015-08-26T09:55:15Z" finished-at="2015-08-26T09:55:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- firstSample.ThreadLocalDemo -->
+    </test> <!-- Run on Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

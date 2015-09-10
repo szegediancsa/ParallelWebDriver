@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods">
+	<listeners>
+		<listener class-name="firstSample.WebDriverListener"></listener>
+	</listeners>
+
+	<test name="Run on IE">
+		<parameter name="browserName" value="IE"></parameter>
+		<parameter name="gridURL" value="http://localhost:4444/wd/hub"></parameter>
+		<classes>
+			<class name="firstSample.ThreadLocalDemo" />
+		</classes>
+    </test>
+	
+	<test name="Run on Firefox">
+		<parameter name="browserName" value="FF"></parameter>
+		<parameter name="gridURL" value="http://localhost:4444/wd/hub"></parameter>
+		<classes>
+			<class name="firstSample.ThreadLocalDemo" />
+		</classes>
+    </test>  
+	 
+	<test name="Run on Chrome">
+		<parameter name="browserName" value="GC"></parameter>
+		<parameter name="gridURL" value="http://localhost:4444/wd/hub"></parameter>
+		<classes>
+			<class name="firstSample.ThreadLocalDemo" />
+		</classes>
+    </test>  
+</suite> <!-- Suite -->
