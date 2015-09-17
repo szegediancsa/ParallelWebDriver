@@ -2,23 +2,12 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="37366" started-at="2015-08-26T07:54:46Z" finished-at="2015-08-26T07:55:23Z">
+  <suite name="Suite" duration-ms="43144" started-at="2015-09-10T15:31:52Z" finished-at="2015-09-10T15:32:36Z">
     <groups>
     </groups>
-    <test name="Run on IE" duration-ms="14145" started-at="2015-08-26T07:54:46Z" finished-at="2015-08-26T07:55:00Z">
+    <test name="Run on IE" duration-ms="8351" started-at="2015-09-10T15:31:52Z" finished-at="2015-09-10T15:32:01Z">
       <class name="firstSample.ThreadLocalDemo">
-        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@1c2c22f3]" name="testMethod1" duration-ms="6625" started-at="2015-08-26T09:54:46Z" finished-at="2015-08-26T09:54:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IE]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@1c2c22f3]" name="testMethod2" duration-ms="12952" started-at="2015-08-26T09:54:46Z" finished-at="2015-08-26T09:54:59Z">
+        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@1c2c22f3]" name="testMethod2" duration-ms="7149" started-at="2015-09-10T17:31:52Z" finished-at="2015-09-10T17:32:00Z">
           <params>
             <param index="0">
               <value>
@@ -29,22 +18,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@1c2c22f3]" name="testMethod1" duration-ms="3229" started-at="2015-09-10T17:31:52Z" finished-at="2015-09-10T17:31:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
       </class> <!-- firstSample.ThreadLocalDemo -->
     </test> <!-- Run on IE -->
-    <test name="Run on Firefox" duration-ms="14815" started-at="2015-08-26T07:55:00Z" finished-at="2015-08-26T07:55:15Z">
+    <test name="Run on Firefox" duration-ms="17649" started-at="2015-09-10T15:32:01Z" finished-at="2015-09-10T15:32:18Z">
       <class name="firstSample.ThreadLocalDemo">
-        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@f5f2bb7]" name="testMethod2" duration-ms="8220" started-at="2015-08-26T09:55:00Z" finished-at="2015-08-26T09:55:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FF]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@f5f2bb7]" name="testMethod1" duration-ms="14377" started-at="2015-08-26T09:55:00Z" finished-at="2015-08-26T09:55:14Z">
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@f5f2bb7]" name="testMethod1" duration-ms="13904" started-at="2015-09-10T17:32:01Z" finished-at="2015-09-10T17:32:15Z">
           <params>
             <param index="0">
               <value>
@@ -55,11 +44,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@f5f2bb7]" name="testMethod2" duration-ms="17274" started-at="2015-09-10T17:32:01Z" finished-at="2015-09-10T17:32:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
       </class> <!-- firstSample.ThreadLocalDemo -->
     </test> <!-- Run on Firefox -->
-    <test name="Run on Chrome" duration-ms="8362" started-at="2015-08-26T07:55:15Z" finished-at="2015-08-26T07:55:23Z">
+    <test name="Run on Chrome" duration-ms="17107" started-at="2015-09-10T15:32:18Z" finished-at="2015-09-10T15:32:36Z">
       <class name="firstSample.ThreadLocalDemo">
-        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@326de728]" name="testMethod1" duration-ms="6977" started-at="2015-08-26T09:55:15Z" finished-at="2015-08-26T09:55:22Z">
+        <test-method status="PASS" signature="testMethod1(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@326de728]" name="testMethod1" duration-ms="15723" started-at="2015-09-10T17:32:18Z" finished-at="2015-09-10T17:32:34Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@326de728]" name="testMethod2" duration-ms="5643" started-at="2015-08-26T09:55:15Z" finished-at="2015-08-26T09:55:20Z">
+        <test-method status="PASS" signature="testMethod2(java.lang.String)[pri:0, instance:firstSample.ThreadLocalDemo@326de728]" name="testMethod2" duration-ms="13728" started-at="2015-09-10T17:32:18Z" finished-at="2015-09-10T17:32:32Z">
           <params>
             <param index="0">
               <value>

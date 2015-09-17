@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" parallel="methods">
-  <parameter name="browserName" value="GC"/>
-  <parameter name="gridURL" value="http://localhost:4444/wd/hub"/>
-  <listeners>
-    <listener class-name="firstSample.WebDriverListener"/>
-  </listeners>
-  <test name="Run on IE(failed)" parallel="methods">
-    <parameter name="browserName" value="IE"/>
-    <parameter name="gridURL" value="http://localhost:4444/wd/hub"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="firstSample.ThreadLocalDemo">
         <methods>
@@ -17,29 +10,5 @@
         </methods>
       </class> <!-- firstSample.ThreadLocalDemo -->
     </classes>
-  </test> <!-- Run on IE(failed) -->
-  <test name="Run on Firefox(failed)" parallel="methods">
-    <parameter name="browserName" value="FF"/>
-    <parameter name="gridURL" value="http://localhost:4444/wd/hub"/>
-    <classes>
-      <class name="firstSample.ThreadLocalDemo">
-        <methods>
-          <include name="testMethod2" invocation-numbers="0"/>
-          <include name="testMethod1" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- firstSample.ThreadLocalDemo -->
-    </classes>
-  </test> <!-- Run on Firefox(failed) -->
-  <test name="Run on Chrome(failed)" parallel="methods">
-    <parameter name="browserName" value="GC"/>
-    <parameter name="gridURL" value="http://localhost:4444/wd/hub"/>
-    <classes>
-      <class name="firstSample.ThreadLocalDemo">
-        <methods>
-          <include name="testMethod2" invocation-numbers="0"/>
-          <include name="testMethod1" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- firstSample.ThreadLocalDemo -->
-    </classes>
-  </test> <!-- Run on Chrome(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

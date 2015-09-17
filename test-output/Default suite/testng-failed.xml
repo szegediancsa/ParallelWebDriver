@@ -5,7 +5,8 @@
     <classes>
       <class name="firstSample.ThreadLocalDemo">
         <methods>
-          <include name="testMethod1"/>
+          <include name="testMethod2" invocation-numbers="0"/>
+          <include name="testMethod1" invocation-numbers="0"/>
         </methods>
       </class> <!-- firstSample.ThreadLocalDemo -->
     </classes>
